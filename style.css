@@ -1,12 +1,59 @@
-h1{
-
+body {
+    background-color: #fffbf7;
 }
+
+h1 {
+    color: #46484c;
+    text-align: center;
+}
+
+p {
+    color: #8b8b8bcc;
+    font-family: verdana;
+    font-size: 20px;
+}
+
+button {
+    color: #fff;
+    background-color: #025157;
+}
+.header
 {
-
+margin-top: 40px;
+margin-left: 20px;
+margin-right: 20px;
+font-size: 0;
 }
+li{
+  display: inline;  
+}
+.header > * 
 {
-
+    display: inline-block;
+    /* Tamaño de fuente de la letra */
+    font-size: 16px;
+    /* alienar al centro verticalmente */
+    vertical-align: middle;
+    /* la altura */
+    height: 100%;
+    /* tamaño de altura que tendra mabas lineas */
+    line-height: 45px;
 }
-button{
-
+.logo > img
+{
+    width:15%;
+}
+.navbar 
+{
+    width: 70%;
+    text-align: center;
+    font-weight:500;
+    color:#025157;
+}
+.actions 
+{
+    width:15%;
+    text-align: right;
+    font-size:14px ;
+    font-weight:600;
 }

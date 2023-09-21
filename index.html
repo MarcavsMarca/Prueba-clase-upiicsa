@@ -1,33 +1,58 @@
 <!DOCTYPE html>
-<!-- esta parte se refiere al lenguaje/idioma -->
-<html lang="en">
-<head>
-    <!-- Aqui va la  infomación importante pero no visible dentro del navegador -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- title se refiere al  titulo de la pagina -->
-    <title>Document</title>
-</head>
-        <body>
-        <!-- Esto es lo que se vera dentro del navegador -->
-            soy una prueba
+<html>
+  <head>
+    <!-- Aquí va información importante pero no visible dentro del navegador -->
+    <title>Pizza</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
 
-        <!-- la etiqueta h1 es un encabezado y puede ir del 1 al 6-->
-            <h1>
-            Construye tu blog. adelante !
-            </h1>
-            <!-- si preciosas control+ s se refiere a guardar  tu progreso-->
-            <!-- p se refiere a un parrafo -->
-            <p>
-                star publishing today with a <strong>7 days</strong>
-            </p>
-            <p>
-        <!-- cuando se utiliza strong se refiere a poner las letras en negritas -->
-                <strong>no creddit card</strong> require
-            </p>
-        <!--input se refire a   -->
-            <input type="text">
-            <!-- en muchos caso se puede genrar archivos css dentro de html -->
-            <!-- style se refiere al estilo -->
-</body>
+
+<!-- En esta caso para que funcione el css se le agrega un class -->
+<header class="header">
+    <!-- logo con link a la pagina principal -->
+    <!-- te sirve para hacer un enlace interno o externo -->
+    <!-- se refiere que hara un enlace de la misma pagina el hrf="/" -->
+    <a hrf="/" class="logo">
+        <img/Src="https://www.upiicsa.ipn.mx/assets/files/upiicsa/Inicio/ICON-UPIICSA.png" height="200" width="200"> 
+    </a>
+    <!-- Menu de navegación -->
+    <nav class="navbar">
+        <!-- ul es una lista desordenada mientras que ol es uan ordenada-->
+        <ul>
+            <li>Plattform</li>
+            <li>Pricing</li>
+            <li>Custumers</li>
+            <li>Resourses</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <!-- Contenedor de acciones de usuario -->
+    <div class="actions">
+        <a>Sing In</a>
+        <button>Start free trial</button>
+    </div>
+</header>
+
+ 
+
+<body>
+   <!-- <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="imagen capterra" /> -->
+    <h1>Construye tu Blog. Construye tu negocio.</h1>
+    <p>Instantly publish articles, drive more traffic, grow your email list, and see your blog's
+      impact on sales</p>
+      <p>
+        Start publishing today with a <strong>free 7-day trial.</strong>
+      </p>
+      <p>
+        <strong>No credit card</strong> required.
+      </p>
+      
+        <!-- Aquí va el código anterior-->
+        <form>
+          <input type="email" />
+          <button type="submit">
+            Try it now &rarr;
+          </button>
+        </form>
+  </body>
 </html>
