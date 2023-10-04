@@ -36,7 +36,7 @@ li{
     vertical-align: middle;
     /* la altura */
     height: 100%;
-    /* tamaño de altura que tendra mabas lineas */
+    /* tamaño de altura que tendra ambas lineas */
     line-height: 45px;
 }
 .logo > img
@@ -56,4 +56,34 @@ li{
     text-align: right;
     font-size:14px ;
     font-weight:600;
+}
+
+.publish h3
+{
+    font-family: "Alegreya",serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+}
+.publish p
+{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #343434;
+    margin-bottom: 20px;
+}
+.publish form
+{
+    display:flex ;
+}
+.publish form p
+{
+    color: #025157;
+    margin-right: 18px;
+}
+/* se supone que no afecta tener 2 html juntos al mismo tiempo ya que  el estilo.css se usa en los 2 */
+.promo
+{
+    display: flex;
+    width: 70%;
 }
